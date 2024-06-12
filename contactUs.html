@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Contact us</title>
-        <link rel="stylesheet" href="styles.css"/>
-    </head>
+        <link rel="stylesheet" href="contactUs.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <body>
         <nav>
             <a href="/">Home</a>
@@ -17,9 +19,51 @@
             <div class="contactBox">
                 <div class="contact-left">
                     <h3>Send your request</h3>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Joe Doe">
+                            </div>
+                            <div class="input-group">
+                                <label>Phone #</label>
+                                <input type="text" placeholder="+11111111111">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="Joedoe@gmail.com">
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" placeholder="Vehicle Information">
+                            </div>
+                        </div>
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
                 </div>
                 <div class="contact-right">
                     <h3>Contact Us</h3>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>EdgarAutoDealership@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+1 915 111 1111</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>#1 EP lane <br>
+                                Some road, some apt,<br>
+                                El Paso, TX 
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
