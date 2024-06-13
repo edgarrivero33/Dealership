@@ -6,7 +6,7 @@
 
 body {
     background: #55ffe5;
-    font-size: 14px;
+    font-size: 17px;
     font-family: "Kanit", sans-serif;
     background-color: #fff;
 }
@@ -115,7 +115,7 @@ table {
 nav {
     text-align: center;
     margin-bottom: 20px;
-    font-size: xx-large;
+    font-size: 50px;
     background-color: #0A6CC0;
 }
 

@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
+  font-weight: 600;
 }
 
 /* Navigation Styling */
@@ -59,4 +60,7 @@ nav a:hover {
 
 .car-image img:hover {
   transform: scale(1.1);
+}
+.car-info{
+  padding: 20px;
 }
