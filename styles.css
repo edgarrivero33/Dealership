@@ -64,3 +64,23 @@ nav a:hover {
 .car-info{
   padding: 20px;
 }
+.page2-button{
+  position: fixed;
+  bottom: 20px;
+  right:20px;
+  background-color: #0A6CC0;
+  border-radius: 30px;
+  padding:10px 20px;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.page2-button:hover{
+  transform: scale(1.1);
+}
+.page2-button a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.page2-button a:hover{
+  text-decoration: underline;
+}
